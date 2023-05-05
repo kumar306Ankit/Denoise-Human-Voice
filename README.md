@@ -1,2 +1,4 @@
 # Denoise-Human-Voice
-The objective of the "Denoise a Human Voice" project is to remove unwanted background noise from an audio recording of a human voice. This can be accomplished using various techniques such as spectral subtraction, Wiener filtering, and deep learning-based methods. The final output should be a clean and clear audio recording of the human voice, free from any distracting noise. 
+This project aims to remove unwanted noise from human voice using a technique called band-limited noise. The idea behind this technique is to add a specific type of noise to the audio signal that we want to denoise. By doing so, we can create a training data set that can be used to train a machine learning model to distinguish between the noise and the actual audio signal.
+
+The project uses Python and some popular libraries such as NumPy, SciPy, and Librosa. The main steps involved in the project include generating band-limited noise, adding the noise to the audio signal, reducing noise using the Noise Reduction (NR) technique, and finally normalizing the audio signals to the range from -1 to 1.
