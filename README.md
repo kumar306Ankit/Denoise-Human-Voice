@@ -1,1 +1,2 @@
 # Denoise-Human-Voice
+The objective of the "Denoise a Human Voice" project is to remove unwanted background noise from an audio recording of a human voice. This can be accomplished using various techniques such as spectral subtraction, Wiener filtering, and deep learning-based methods. The final output should be a clean and clear audio recording of the human voice, free from any distracting noise. 
